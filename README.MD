@@ -3,3 +3,5 @@
 Inventory Management for different type of products
 
 ## Stack
+
+- Next.js
