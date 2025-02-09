@@ -1,9 +1,10 @@
 "use client";
 
+import { useEffect } from "react";
 import Navbar from "@/app/(components)/Navbar";
 import Sidebar from "@/app/(components)/Sidebar";
+
 import StoreProvider, { useAppSelector } from "./redux";
-import { useEffect } from "react";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   const isSidebarCollapsed = useAppSelector(
@@ -15,9 +16,9 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light");
     }
-  }, [isDarkMode]);
+  });
 
   return (
     <div
