@@ -7,3 +7,4 @@ Inventory Management for different type of products
 - Next.js
 - Node.js
 - TaildwindCSS
+- Express
