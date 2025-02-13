@@ -8,3 +8,4 @@ Inventory Management for different type of products
 - Node.js
 - TaildwindCSS
 - Express
+- AWS
