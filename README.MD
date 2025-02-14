@@ -6,6 +6,7 @@ Inventory Management for different type of products
 
 - Next.js
 - Node.js
+- TypeScript
 - TaildwindCSS
 - Express
 - AWS
