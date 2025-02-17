@@ -1,6 +1,6 @@
 # Inventory Management
 
-Inventory Management for different type of products
+Inventory Management for different type of products.
 
 ## Stack
 
