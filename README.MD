@@ -9,4 +9,5 @@ Inventory Management for different type of products.
 - TaildwindCSS
 - Node.js
 - Express
+- Prisma
 - AWS
